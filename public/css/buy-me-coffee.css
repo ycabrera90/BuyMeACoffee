@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background: radial-gradient(50% 50% at 50% 50%, #010101 65.62%, #3F0A0A 100%, #91170F 118%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    max-width: 478px;
+    margin: 0;
+    padding: 16px;
+}
+
+.hello {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.my-self {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #8D8D8D;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.red {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #E3405F;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.light {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #B4B4B4;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.form-container {
+    position: absolute;
+    right: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buy-input {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #701B13;
+    max-width: 65px;
+    padding: 4px;
+}
+
+.buy-button {
+    display: block;
+    background: linear-gradient(90.67deg, #D9D9D9 3.34%, rgba(217, 217, 217, 0) 178.3%);
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #105217;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+    margin: 4px 0;
+}
+
+.buy-button:hover {
+    color: #146c1d;
+}
+
+.coffee-img {
+    width: 100%;
+}
