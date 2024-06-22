@@ -58,6 +58,8 @@ For serve the app you need to run the following command:
 npm run dev
 ```
 
+Then you can open your browser and go to the following [link](http://localhost:5000/payment/buy-me-a-coffee).
+
 ## Authors
 * [**Yosniel Cabrera**](https://www.linkedin.com/in/eip-studios/) - *React Developer* 
   
