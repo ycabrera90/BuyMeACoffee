@@ -10,7 +10,7 @@
 
 
 # Buy me a coffee
-This in a small [endpoint](https://buymeacoffee.onrender.com/payment/buy-me-a-coffee) to interact with DLocal services for make online payments.
+This in a small [endpoint](https://buy-me-a-coffee.yosniel-dev.com) to interact with DLocal services for make online payments.
 
 ## Built with
 * [EJS](https://ejs.co/) - Template engine
@@ -23,7 +23,7 @@ Te frontend side of this project is rendered in the server side using the templa
 
 ## Clone and run app
 These instructions will allow you to obtain a copy of the project on your local machine for development and test purposes.
-Look the [**deployment**](https://buymeacoffee.onrender.com/payment/buy-me-a-coffee) so you can see the final result.
+Look the [**deployment**](https://buy-me-a-coffee.yosniel-dev.com) so you can see the final result.
 
 #### Pre-requirements
 For run this project you must have installed globally the following packages in your local machine
@@ -58,7 +58,7 @@ For serve the app you need to run the following command:
 npm run dev
 ```
 
-Then you can open your browser and go to the following [link](http://localhost:5000/payment/buy-me-a-coffee).
+Then you can open your browser and go to the following [link](http://localhost:5000).
 
 ## Authors
 * [**Yosniel Cabrera**](https://yosniel-dev.com) - *React Developer* 
