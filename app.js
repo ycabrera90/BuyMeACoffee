@@ -1,24 +1,26 @@
-const express = require("express");
-const multer = require("multer");
-const path = require("path");
+const express = require("express")
+const multer = require("multer")
+const path = require("path")
 
-const errorController = require("./controllers/error");
-const paymentRoutes = require("./routes/payment");
+const errorController = require("./controllers/error")
+const rootRoutes = require("./routes/root")
+const paymentRoutes = require("./routes/payment")
 
-const app = express();
-const upload = multer();
+const app = express()
+const upload = multer()
 
-app.set("view engine", "ejs");
+app.set("view engine", "ejs")
 
-app.set("views", "views");
+app.set("views", "views")
 
-app.use(upload.array());
+app.use(upload.array())
 
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public")))
 
-app.use("/payment", paymentRoutes);
+app.use("/", rootRoutes)
 
-app.use(errorController.get404);
+app.use("/payment", paymentRoutes)
 
-app.listen(process.env.PORT || 5000);
+app.use(errorController.get404)
 
+app.listen(process.env.PORT || 5000)

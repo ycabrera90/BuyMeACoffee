@@ -4,6 +4,6 @@ const paymentController = require("../controllers/payment")
 
 const router = express.Router()
 
-router.post("/send", paymentController.goToPay)
+router.get("/", paymentController.buyACoffee)
 
 module.exports = router
