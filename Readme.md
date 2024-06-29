@@ -19,7 +19,7 @@ This in a small [endpoint](https://buy-me-a-coffee.yosniel-dev.com) to interact 
 * [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) - Dependencies handler
 
 ## Frontend Side
-Te frontend side of this project is rendered in the server side using the template engine [EJS](https://ejs.co/). Yo can see the final deployment in the following [link](https://buymeacoffee.onrender.com/payment/buy-me-a-coffee).
+Te frontend side of this project is rendered in the server side using the template engine [EJS](https://ejs.co/). Yo can see the final deployment in the following [link](https://buy-me-a-coffee.yosniel-dev.com).
 
 ## Clone and run app
 These instructions will allow you to obtain a copy of the project on your local machine for development and test purposes.
